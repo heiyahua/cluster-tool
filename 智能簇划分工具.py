@@ -1,4 +1,4 @@
-# 智能簇划分工具.py
+# 智能簇划分工具V7.py
 
 import sys, os, base64, io, threading, time
 import pandas as pd
@@ -660,4 +660,5 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
     win = ClusterApp()
     win.show()
+
     sys.exit(app.exec_())
